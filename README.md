@@ -7,6 +7,7 @@ It is useful in checking copies of images. Two images with same D-Hash means the
 
 Usage:
 1. Use DHasher.hashFromBitmap(Bitmap) to get DHash value from Bitmap blob (Android Bitmaps used here)
+
 2. Use DHasher.hashFromPath(String) to get DHash value from an image file path. It will load image in memory as a Bitmap blob (Android Bitmaps used here)
 
 Returns:
